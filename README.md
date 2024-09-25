@@ -12,8 +12,12 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 
 
 
-
-
+# Application of out custom Board ( Ideas) 
+ 1. Peripheral Coprocessor ( obiviously same as periplex but very smaller and less moduler due to 1K LUT )
+ 2. ROS Node using Micro ROS
+ 3. Protocol converter ( USB to uart ,  Uart-SPI, SPI-I2C etc),
+ 4. A Coprocessor to the Periplex Project ( not sure how but can be done)
+ 5. 
 
 
 
