@@ -23,6 +23,7 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
  5. 
 
 
+![image_480](https://github.com/user-attachments/assets/b9ff4a67-2bfd-40b9-93d6-0fe1c51b91b2)
 
 
 
