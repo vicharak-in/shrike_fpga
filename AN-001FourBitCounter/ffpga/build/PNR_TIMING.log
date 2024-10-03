@@ -1,0 +1,149 @@
+Timing Summary
+==============
+
+   POST-ROUTE
+
+         Group  No. Clocks  No. Clock Pairs  WNS(ps)  TNS(ps)  TNS Endpoints      
+   -----------  ----------  ---------------  -------  -------  -------------      
+    <UDEF_clk>           1                1    -7589   -27220              4      
+
+
+
+
+Clocks
+======
+
+            Clock    Clock net        Group  Constrained Period(ps)      Waveform(ps)   Achievable Period(ps)  Achievable Frequency(MHz)
+   --------------  -----------  -----------  ----------------------  -----------------  ---------------------  -------------------------
+              clk          clk   <UDEF_clk>           (auto) 2000            (0,1000)                   9588                    104.297 
+
+
+
+
+Clock Relationships
+===================
+
+       From Clock        To Clock               Group    Endpoints     WNS(ps)    TNS(ps)  TNS Endpoints
+   --------------  --------------  ------------------  -----------  ----------  ---------  -------------
+              clk             clk          <UDEF_clk>            4       -7589     -27220              4
+
+
+
+
+Timing Details for Clock Pair clk and clk
+=========================================
+
+       From Clock        To Clock               Group    Endpoints     WNS(ps)    TNS(ps)  TNS Endpoints
+   --------------  --------------  ------------------  -----------  ----------  ---------  -------------
+              clk             clk          <UDEF_clk>            4       -7589     -27220              4
+
+   Slack (not met):                         -7589ps
+     Path type:                               SETUP
+     Group:                              <UDEF_clk>
+     Launching clock:                           clk (rising edge)
+     Capturing clock:                           clk (rising edge)
+
+     Requested period:                       2000ps
+   + Delay of the capturing clock:              0ps
+   - Clock uncertainty:                         0ps
+   = Required time:                          2000ps
+   - Propagation time:                       9589ps (87.1% logic, 12.9% route, logic stage 2)
+   - Delay of the launching clock:              0ps
+   = Slack:                                 -7589ps
+
+   Instance/Pin or Net Name                                                    Type         ID     Location or Fanout   Delay(ps)  Edge  Arrival Time(ps)
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   clk                                                                         CLOCK-PORT    -                      -     launch     r               0   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   $auto$ff.cc:266:slice$1696/CLK                                              RBB_6L        8  [TILE 0 0, RBB 19 20]          -     r               0   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1696/DQ                                               RBB_6L        8  [TILE 0 0, RBB 19 20]       2700     r            2700   
+   counter[1]                                                                  Net           5             (fanout=1)       1239                     -   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/B1    RBB_6L        7  [TILE 0 0, RBB 16 20]          -     r            3939   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/CMUX  RBB_6L        7  [TILE 0 0, RBB 16 20]       3300     r            7239   
+   $auto$alumacc.cc:485:replace_alu$1262.Y[2]                                  Net          16             (fanout=2)          0                     -   
+   $auto$ff.cc:266:slice$1697/D6                                               RBB_6L        9  [TILE 0 0, RBB 16 22]          -     r            7239   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1697/CLK                                              RBB_6L        9  [TILE 0 0, RBB 16 22]       2350     r            9589   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   clk                                                                         CLOCK-PORT    -                      -    capture     r            9589   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+   Slack (not met):                         -7546ps
+     Path type:                               SETUP
+     Group:                              <UDEF_clk>
+     Launching clock:                           clk (rising edge)
+     Capturing clock:                           clk (rising edge)
+
+     Requested period:                       2000ps
+   + Delay of the capturing clock:              0ps
+   - Clock uncertainty:                         0ps
+   = Required time:                          2000ps
+   - Propagation time:                       9546ps (87.5% logic, 12.5% route, logic stage 2)
+   - Delay of the launching clock:              0ps
+   = Slack:                                 -7546ps
+
+   Instance/Pin or Net Name                                                    Type         ID     Location or Fanout   Delay(ps)  Edge  Arrival Time(ps)
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   clk                                                                         CLOCK-PORT    -                      -     launch     r               0   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   $auto$ff.cc:266:slice$1697/CLK                                              RBB_6L        9  [TILE 0 0, RBB 16 22]          -     r               0   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1697/DQ                                               RBB_6L        9  [TILE 0 0, RBB 16 22]       2700     r            2700   
+   counter[2]                                                                  Net           2             (fanout=1)       1196                     -   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/C1    RBB_6L        7  [TILE 0 0, RBB 16 20]          -     r            3896   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/DMUX  RBB_6L        7  [TILE 0 0, RBB 16 20]       3300     r            7196   
+   $auto$alumacc.cc:485:replace_alu$1262.Y[3]                                  Net          17             (fanout=2)          0                     -   
+   $auto$ff.cc:266:slice$1698/D6                                               RBB_6L       10  [TILE 0 0, RBB 19 22]          -     r            7196   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1698/CLK                                              RBB_6L       10  [TILE 0 0, RBB 19 22]       2350     r            9546   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   clk                                                                         CLOCK-PORT    -                      -    capture     r            9546   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+   Slack (not met):                         -7489ps
+     Path type:                               SETUP
+     Group:                              <UDEF_clk>
+     Launching clock:                           clk (rising edge)
+     Capturing clock:                           clk (rising edge)
+
+     Requested period:                       2000ps
+   + Delay of the capturing clock:              0ps
+   - Clock uncertainty:                         0ps
+   = Required time:                          2000ps
+   - Propagation time:                       9489ps (86.9% logic, 13.1% route, logic stage 2)
+   - Delay of the launching clock:              0ps
+   = Slack:                                 -7489ps
+
+   Instance/Pin or Net Name                                                    Type         ID     Location or Fanout   Delay(ps)  Edge  Arrival Time(ps)
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   clk                                                                         CLOCK-PORT    -                      -     launch     r               0   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   $auto$ff.cc:266:slice$1696/CLK                                              RBB_6L        8  [TILE 0 0, RBB 19 20]          -     r               0   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1696/DQ                                               RBB_6L        8  [TILE 0 0, RBB 19 20]       2700     r            2700   
+   counter[1]                                                                  Net           5             (fanout=1)       1239                     -   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/B1    RBB_6L        7  [TILE 0 0, RBB 16 20]          -     r            3939   
+   $auto$alumacc.cc:485:replace_alu$1262.genblk1.slice[0].genblk1.carry4/BMUX  RBB_6L        7  [TILE 0 0, RBB 16 20]       3200     r            7139   
+   $auto$alumacc.cc:485:replace_alu$1262.Y[1]                                  Net          15             (fanout=2)          0                     -   
+   $auto$ff.cc:266:slice$1696/D6                                               RBB_6L        8  [TILE 0 0, RBB 19 20]          -     r            7139   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+   $auto$ff.cc:266:slice$1696/CLK                                              RBB_6L        8  [TILE 0 0, RBB 19 20]       2350     r            9489   
+   clk                                                                         Clock net     8           (fanout=176)          0                     -   
+   clk                                                                         CLOCK-PORT    -                      -    capture     r            9489   
+   --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

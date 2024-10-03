@@ -1,0 +1,39 @@
+
+
+####   Resource Utilization Report   ####
+
+    Top level module name: counter
+
+    Resource usage:
+       4 Logic 6-LUT CLBs
+            7 CLB LUTs utilized (up to 4 per CLB)
+                 2 of which are dual 5-input LUTs
+                 9 LUTs total
+            4 CLB FFs utilized (up to 4 pairs per CLB)
+                 2 of which are LUT-FF combination
+                 4 FFs total
+       7 I/O CLBs
+            2  Input pins
+            9 Output pins
+            4 Output FFs utilized
+       1 Clock
+           Clock 0: net     8, clk, Fanout: 8 CLBs
+    need 0 DSP and 1 Logic-Memory EFLX 1K Tiles.
+
+ 
+####   Resource Utilization Complete   ####
+
+TILE-REQ:		0		0		0		1
+
+### Total EFLX resources from current floorplan: ###
+                       184 IOBs
+                       140 Logic 6-LUT CLBs
+                              40 CLBs support RAM/SR
+
+Usage of Logic CLBs is 2.9%.
+    Logic-Memory CLB for RAM/Shift-Register is 0.0%.
+Usage of LUTs is 1.2%.
+    dual-LUTs is 0.4%.
+Usage of FF is 0.7%.
+    dual-FF is 0.0%.
+Usage of IO CLB is 3.8%.

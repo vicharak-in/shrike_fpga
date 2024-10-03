@@ -1,0 +1,18 @@
+
+5. Printing statistics.
+
+=== counter ===
+
+   Number of wires:                 15
+   Number of wire bits:             36
+   Number of public wires:           7
+   Number of public wire bits:      16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     CARRY4                          1
+     FDCE                            4
+     INV                             6
+     LUT2                            3
+
