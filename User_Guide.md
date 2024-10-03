@@ -5,8 +5,9 @@ Hello SO you have got your Handles On our  -- Board . Congrats You are in for a 
 So first thing first we would have to download the EDA tool for the FPGA You can Find it here. 
 Here are the few more software you will require.
 
-1. Thonny IDE
-2. GTKWave
+1. GO Configure Software Hub ( Renesas) 
+2. Thonny IDE
+3. GTKWave
 
 Alright so you have got the require sotware on you PC. Now lets flash bitsream to the FPGA The guide to genrating the bitsream can be found here. 
 
