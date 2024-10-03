@@ -8,7 +8,26 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 1. FPGA - Renesas Forge FPGA https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga
 2. EDA Tool - Go configureSoftware Hub https://www.renesas.com/en/software-tool/go-configure-software-hub
 3. Synthesis - Yosys ( inbuilt in EDA)
-4. PPR - EFXL Flex logic ( inbuilt in EDA) 
+4. PPR - EFXL Flex logic ( inbuilt in EDA)
+
+# Demo Projects - TO DO 
+
+1. LED Water                         
+2. Servo Controller  
+3. I2C Uart 
+4. UART to 7 seg 
+5. Pico to Rpi over spi on the configration chanal
+6. RISC V 
+7. LCD Display 16*2 
+8. Periplex (port) 
+9. 4 bit 7 segment Controller 
+10. SPI Display Driver 
+11. 8 Bit protocol for v2 
+12. FFT 
+13. PWM Coprocessor ( servo and motor controls)
+14. Signal Genrator  ( Pll for higher frequencies)
+15. Random number genrator 
+16. Counter 4 bit                                       -- DONE
 
 # updates 
  1/10/2024 The programming of the FPGA using the RP2040 is working .
