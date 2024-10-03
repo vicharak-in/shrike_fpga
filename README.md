@@ -10,6 +10,9 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 3. Synthesis - Yosys ( inbuilt in EDA)
 4. PPR - EFXL Flex logic ( inbuilt in EDA) 
 
+#updates 
+ 1/10/2024 The programming of the FPGA using the RP2040 is working .
+ 
 
 
 # Application of our custom Board ( Ideas) 
