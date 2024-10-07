@@ -38,9 +38,15 @@ For reading the devices will always be polling and or waiting for the interrupt 
 
 
 
+
 ## MCU Level :
 
 ![image](https://github.com/user-attachments/assets/744c2f19-f204-4bd3-96ae-5a047badc1ed)
+
+## Timing Diagram 
+
+![fpga_mcu_link](https://github.com/user-attachments/assets/54633686-7971-4000-8180-22043dfae8dc)
+
 
 
 
