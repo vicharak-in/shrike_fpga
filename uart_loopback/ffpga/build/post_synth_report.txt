@@ -1,0 +1,25 @@
+
+6. Printing statistics.
+
+=== uart_loopback ===
+
+   Number of wires:                118
+   Number of wire bits:            286
+   Number of public wires:          64
+   Number of public wire bits:     133
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                124
+     CARRY4                          6
+     FDRE                           56
+     FDSE                            8
+     INV                             9
+     LUT2                           17
+     LUT3                            2
+     LUT4                            2
+     LUT5                           11
+     LUT6                            9
+     MUXF7                           3
+     MUXF8                           1
+

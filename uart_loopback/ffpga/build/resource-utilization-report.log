@@ -1,0 +1,42 @@
+
+
+####   Resource Utilization Report   ####
+
+    Top level module name: uart_loopback
+
+    Resource usage:
+      20 Logic 6-LUT CLBs
+           67 CLB LUTs utilized (up to 4 per CLB)
+                 9 of which are 6-input LUTs
+                26 of which are dual 5-input LUTs
+                93 LUTs total
+           54 CLB FFs utilized (up to 4 pairs per CLB)
+                51 of which are LUT-FF combination
+                 8 of which are dual-FFs
+                 1 of which are dual-LUT-dual-FF combination
+                62 FFs total
+       6 I/O CLBs
+            2  Input pins
+            7 Output pins
+            3 Output FFs utilized
+       1 Clock
+           Clock 0: net    23, clk, Fanout: 23 CLBs
+    need 0 DSP and 1 Logic-Memory EFLX 1K Tiles.
+
+ 
+####   Resource Utilization Complete   ####
+
+TILE-REQ:		0		0		0		1
+
+### Total EFLX resources from current floorplan: ###
+                       184 IOBs
+                       140 Logic 6-LUT CLBs
+                              40 CLBs support RAM/SR
+
+Usage of Logic CLBs is 14.3%.
+    Logic-Memory CLB for RAM/Shift-Register is 0.0%.
+Usage of LUTs is 12.0%.
+    dual-LUTs is 4.6%.
+Usage of FF is 9.6%.
+    dual-FF is 1.4%.
+Usage of IO CLB is 3.3%.
