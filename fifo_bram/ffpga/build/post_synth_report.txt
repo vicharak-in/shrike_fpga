@@ -1,0 +1,25 @@
+
+6. Printing statistics.
+
+=== FIFO_BRAM ===
+
+   Number of wires:                 85
+   Number of wire bits:            351
+   Number of public wires:          46
+   Number of public wire bits:     217
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                148
+     CARRY4                          6
+     FDCE                           18
+     FDRE                           64
+     INV                             4
+     LUT2                           20
+     LUT3                            3
+     LUT5                            3
+     LUT6                           16
+     MUXF7                           8
+     MUXF8                           4
+     SRL16E                          2
+
