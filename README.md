@@ -46,7 +46,8 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 ![image](https://github.com/user-attachments/assets/3359da79-6886-48a4-9754-b5aa416cc504)
 
 # FPGA CPU PIN OUTS 
-![image](https://github.com/user-attachments/assets/60f90c6d-f87c-458e-8c66-f7d1900f4dfc)
+![image](https://github.com/user-attachments/assets/ed1769d6-760d-4312-85f5-bb914ad75cec)
+
 
 
 
