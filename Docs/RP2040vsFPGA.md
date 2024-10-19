@@ -3,6 +3,8 @@
 In the project We have tried to compare the computing of FPGA with The RP2040 MCU. The Compute is to calcluate the first 100 elements of the Fibonaci Seqeunce .
 The nature of this task in sequencial it will iterate a for loop 100 times.
 
+The Project could be found here [Fibonaci_FPGA](Projects/fibonaci_fpga) 
+
 This test is consist of two part: 
 
     1. MicroPython Programme for RP2040.
