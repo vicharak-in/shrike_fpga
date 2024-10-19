@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.45.001" lastChange="19 Oct 2024 14:26:45" projectChecksumState="1" projectChecksum="b26a6803">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.45.001" lastChange="19 Oct 2024 16:33:44" projectChecksumState="1" projectChecksum="23597abd">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="FFPGA" partNumber="67" package="26">
         <nvmData registerLenght="480">0 0 0 28 0 0 0 0 A5 A5 A5 A5 0 0 0 0 0 0 0 0 5A 5A 5A 5A 0 0 0 0 22 22 22 22 22 22 22 22 22 22 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</nvmData>
@@ -596,15 +596,16 @@
         <openedTabs>
             <openedTab>main.v</openedTab>
             <openedTab>I/O Planner</openedTab>
+            <openedTab>Resources Report</openedTab>
         </openedTabs>
         <pipelineStagesStates>
             <pipelineStageState>
                 <pipelineStage>0</pipelineStage>
-                <pipelineState>0</pipelineState>
+                <pipelineState>1</pipelineState>
             </pipelineStageState>
             <pipelineStageState>
                 <pipelineStage>1</pipelineStage>
-                <pipelineState>0</pipelineState>
+                <pipelineState>3</pipelineState>
             </pipelineStageState>
         </pipelineStagesStates>
         <modules>
@@ -616,7 +617,86 @@
             <netlists/>
         </modules>
         <io-spec-tool>
-            <records filter="254"/>
+            <records filter="144">
+                <record id="CLK_t[0:0]_W_in0">
+                    <port-name>clk</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:10]_in0">
+                    <port-name>in[1]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:22]_in0">
+                    <port-name>in[2]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:23]_in0">
+                    <port-name>in[3]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:25]_out0">
+                    <port-name>clk_en</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:6]_out0">
+                    <port-name>out_value[7]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:6]_out1">
+                    <port-name>out_value_en[7]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:7]_out0">
+                    <port-name>out_value[6]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:7]_out1">
+                    <port-name>out_value_en[6]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:8]_out0">
+                    <port-name>out_flag</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:8]_out1">
+                    <port-name>out_flag_en</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[0:9]_in0">
+                    <port-name>in[0]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:22]_out0">
+                    <port-name>out_value[1]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:22]_out1">
+                    <port-name>out_value_en[1]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:24]_in0">
+                    <port-name>start_flag</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:26]_in0">
+                    <port-name>rst</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:4]_out0">
+                    <port-name>out_value[4]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:4]_out1">
+                    <port-name>out_value_en[4]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:5]_out0">
+                    <port-name>out_value[5]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:5]_out1">
+                    <port-name>out_value_en[5]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:6]_out0">
+                    <port-name>out_value[2]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:6]_out1">
+                    <port-name>out_value_en[2]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:8]_out0">
+                    <port-name>out_value[3]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:8]_out1">
+                    <port-name>out_value_en[3]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:9]_out0">
+                    <port-name>out_value[0]</port-name>
+                </record>
+                <record id="IOB_t[0:0]_xy[31:9]_out1">
+                    <port-name>out_value_en[0]</port-name>
+                </record>
+            </records>
         </io-spec-tool>
         <macrocell-mode-data>
             <scene-data>
@@ -786,10 +866,10 @@
     </fpga-data>
     <projectData>
         <specs>
-            <lastModify/>
-            <vddSpecs/>
-            <vdd2Specs/>
-            <tempSpecs/>
+            <lastModify lastModifyValue="19.10.2024 9:30:22"/>
+            <vddSpecs vddMin="0.99" vddTyp="1.1" vddMax="1.21"/>
+            <vdd2Specs vdd2Min="1.71" vdd2Max="2.75"/>
+            <tempSpecs tempMin="-40" tempTyp="25" tempMax="85"/>
         </specs>
         <projectDataFields>
             <textLineDataField name="Customer Name" id="2" text=""/>

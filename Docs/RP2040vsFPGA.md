@@ -1,4 +1,4 @@
-# Comparing the computing time of RP2040 to be FORGE FPGA SLV 
+# Comparing the computing time of RP2040 to the FORGE FPGA SLG47910
 
 In the project We have tried to compare the computing of FPGA with The RP2040 MCU. The Compute is to calcluate the first 100 elements of the Fibonaci Seqeunce .
 The nature of this task in sequencial it will iterate a for loop 100 times.
