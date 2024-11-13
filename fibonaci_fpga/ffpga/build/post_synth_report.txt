@@ -1,0 +1,28 @@
+
+5. Printing statistics.
+
+=== fibonaci ===
+
+   Number of wires:                 50
+   Number of wire bits:            732
+   Number of public wires:          15
+   Number of public wire bits:     296
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                352
+     BUFG                            1
+     CARRY4                         20
+     FDRE                          219
+     FDSE                            1
+     IBUF                            3
+     INV                             1
+     LUT2                           72
+     LUT3                            2
+     LUT4                            6
+     LUT5                            1
+     LUT6                           11
+     MUXF7                           7
+     MUXF8                           3
+     OBUF                            5
+
