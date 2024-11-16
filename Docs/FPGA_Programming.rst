@@ -36,11 +36,13 @@ FPGA Side of the Board.
 
 STEP 1. Lauch the Go Configure IDE 
 
-.. image:: ./images/go_configure_startup.png.png
-   :height: 100
-   :width: 200
-   :scale: 50
+.. image:: ./images/go_configure_startup.png
+   :height: 600
+   :width: 900
+   :scale: 100
    :alt: go_configure_startup_page
+
+
 
 
 
