@@ -93,7 +93,7 @@ Now that you have succesfully installed the IDE let try to create a project with
    :scale: 100
    :alt: forge_fpga_workshop
 
-.. image:: ./main_v/ide_home.png
+.. image:: ./images/main.v.png
    :width: 900
    :scale: 100
    :alt: forge_fpga_workshop
