@@ -4,7 +4,7 @@ Programming the SLG47910 FPGA On XYZ Board
 
 Our XYZ Board Features Reneasas Forge FPGA SLG47910 1K Luts FPGA.The datasheet for which can be found `here <https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga>`_ 
 
-Renesas GO Configure Software Hub is Used to programme the FPGA .
+Renesas GO Configure Software Hub is Used to programme the FPGA.
 
 Note: This is a very comprehensive Guide to getting started we recommend going throught these documents for a better understanding.
 
