@@ -37,7 +37,7 @@ Onces you log in it will take you to the home page of renesas Follow this `Link 
 
 **STEP 3:**  Now Click downlode the software accroding to your OS. And install it Installation is very easy similar to any other software on the OS.
 
-.. image:: ./images/downlode.png
+.. image:: ./images/os.png
    :width: 900
    :scale: 100
    :alt: go_configure_startup_page
