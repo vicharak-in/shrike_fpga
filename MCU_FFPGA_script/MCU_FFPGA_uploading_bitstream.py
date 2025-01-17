@@ -5,22 +5,22 @@ import utime
 import binascii
 
 #Settings
-SS = machine.Pin(17, machine.Pin.OUT); #Slave select
-EN = machine.Pin(20, machine.Pin.OUT);
-PWR = machine.Pin(21, machine.Pin.OUT);
+SS = machine.Pin(1, machine.Pin.OUT); #Slave select
+EN = machine.Pin(14, machine.Pin.OUT);
+PWR = machine.Pin(15, machine.Pin.OUT);
 
 
 
 #Initialize SPI
 SPI = machine.SPI(0,
-                  baudrate = 1000000,
+                  baudrate = 1600000,
                   polarity = 0,
                   phase = 0,
                   bits = 8,
                   firstbit = machine.SPI.MSB,
-                  sck = machine.Pin(18),
-                  mosi = machine.Pin(19),
-                  miso = machine.Pin(16))
+                  sck = machine.Pin(2),
+                  mosi = machine.Pin(3),
+                  miso = machine.Pin(0))
 
 file_name = 'FPGA_bitstream_MCU.bin'
 
@@ -33,11 +33,11 @@ def send_bitstream_file(word_size=4):
                 if not word:
                     break
 
-                #hex_word = binascii.hexlify(word).decode('utf-8')
-                #print(f"Send word: {hex_word}")
+                hex_word = binascii.hexlify(word).decode('utf-8')
+                print(f"Send word: {hex_word}")
                 SPI.write(word)
 
-                #utime.sleep(0.001)
+                utime.sleep(0.001)
 
     except OSError as e:
         print(f"Can't open the file: {e}")

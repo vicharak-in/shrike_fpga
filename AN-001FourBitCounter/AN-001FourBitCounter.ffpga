@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.45.001" lastChange="3 Oct 2024 17:14:01" projectChecksumState="1" projectChecksum="f0a11c5a">
+<GPDProject version="33" oldestCompatibleVersion="32" GPDVersion="6.45.002" lastChange="15 Nov 2024 09:57:11" projectChecksumState="1" projectChecksum="f78ebd2e">
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="FFPGA" partNumber="67" package="26">
         <nvmData registerLenght="480">0 0 0 28 0 0 0 0 A5 A5 A5 A5 0 0 0 0 0 0 0 0 5A 5A 5A 5A 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</nvmData>
@@ -734,6 +734,9 @@
                 <record id="IOB_t[0:0]_xy[0:25]_out0">
                     <port-name>osc_en</port-name>
                 </record>
+                <record id="IOB_t[0:0]_xy[0:6]_in0">
+                    <port-name>up_down</port-name>
+                </record>
                 <record id="IOB_t[0:0]_xy[0:9]_out0">
                     <port-name>counter[0]</port-name>
                 </record>
@@ -742,9 +745,6 @@
                 </record>
                 <record id="IOB_t[0:0]_xy[31:11]_in0">
                     <port-name>nreset</port-name>
-                </record>
-                <record id="IOB_t[0:0]_xy[31:25]_in0">
-                    <port-name>up_down</port-name>
                 </record>
             </records>
         </io-spec-tool>

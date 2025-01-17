@@ -7,11 +7,7 @@
     Resource usage:
        4 Logic 6-LUT CLBs
             7 CLB LUTs utilized (up to 4 per CLB)
-                 2 of which are dual 5-input LUTs
-                 9 LUTs total
             4 CLB FFs utilized (up to 4 pairs per CLB)
-                 2 of which are LUT-FF combination
-                 4 FFs total
        7 I/O CLBs
             2  Input pins
             9 Output pins

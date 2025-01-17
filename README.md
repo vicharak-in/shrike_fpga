@@ -1,8 +1,6 @@
 # forge_fpga
 This repo is for the RP2040 + Forge FPGA Dev Board.  
-The repo contains a LED blinking example project the bitsream for which is provided by the Renesas FAE Orest.Krykh.  
-This is not teseted on the FPGA yet as there has been some hardware problem ( could be a software (flashing ) as well)  related to logic level disparity between the RP2040 and FPGA.  
-We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode However right now the support for this mode is very crude in the FORGE FPGA (GO Configure sotfware) I have been in touch with the various FAE in the companay and there has been progress. It should be figures out soon in hte next update of the software which is promised by the end on month of Sep 2024.
+The repo contains a User Guide and example Project.
 
 # Specs: 
 1. FPGA - Renesas Forge FPGA https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga
@@ -10,14 +8,13 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 3. Synthesis - Yosys ( inbuilt in EDA)
 4. PPR - EFXL Flex logic ( inbuilt in EDA)
 
-# Demo Projects - TO DO 
+# Demo Projects - TODO ( Your contributions are appreciated )  
 
 1. LED Water                         
 2. Servo Controller  
-3. I2C Uart 
-4. UART to 7 seg 
-5. Pico to Rpi over spi on the configration chanal
-6. RISC V 
+3. I2C to Uart 
+4. UART to 7 seg  
+5. RISC V SERV 
 7. LCD Display 16*2 
 8. Periplex (port) 
 9. 4 bit 7 segment Controller 
@@ -34,12 +31,10 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
  
 
 
-# Application of our custom Board ( Ideas) 
- 1. Peripheral Coprocessor ( obiviously same as periplex but very smaller and less moduler due to 1K LUT )
+# Application of our Board ( Ideas) 
+ 1. Peripheral Coprocessor 
  2. ROS Node using Micro ROS
- 3. Protocol converter ( USB to uart ,  Uart-SPI, SPI-I2C etc),
- 4. A Coprocessor to the Periplex Project ( not sure how but can be done)
- 5. 
+ 3. Protocol converter ( USB to uart ,  Uart-SPI, SPI-I2C etc)
 
 
 ![image_480](https://github.com/user-attachments/assets/b9ff4a67-2bfd-40b9-93d6-0fe1c51b91b2)
@@ -47,13 +42,3 @@ We are trying to program the FPGA usign the RP2040 i.e as a SPI Slave mode Howev
 
 # FPGA CPU PIN OUTS 
 ![image](https://github.com/user-attachments/assets/ed1769d6-760d-4312-85f5-bb914ad75cec)
-
-
-
-
-
-contact details for the FAE in the Renesas : 
-1. orest.krykh.wm@renesas.com  (Orest.krykh)
-2. Iryna Bilyk iryna.bilyk.xj@renesas.com
-3. Akanksha Agarwal ( Linkedin)
-4. fpga@renesas.com
