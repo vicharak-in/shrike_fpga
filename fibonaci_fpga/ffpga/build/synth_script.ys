@@ -1,0 +1,6 @@
+read -sv "../src/fibonaci.v"
+synth_xilinx -flatten -nodsp 
+clean
+write_verilog "post_synth_results.v"
+write_edif "netlist.edif"
+tee -q -o post_synth_report.txt stat
