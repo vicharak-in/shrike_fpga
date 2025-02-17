@@ -1,4 +1,4 @@
-# forge_fpga
+# Shrike_FPGA
 This repo is for the RP2040 + Forge FPGA Dev Board.  
 The repo contains a User Guide and example Project.
 
