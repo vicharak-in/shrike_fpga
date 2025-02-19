@@ -2,7 +2,10 @@
 This repo is for the RP2040 + Forge FPGA Dev Board. 
 
 ![image](https://github.com/user-attachments/assets/6f404ca8-1808-4871-b96a-2030eb391555)
- 
+
+### Board level Blocl Diagram
+ ![shrike](https://github.com/user-attachments/assets/32e263c9-83a2-4c44-af4f-0ea80dacad43)
+
 The repo contains a User Guide and example Project.
 
 # Specs: 
