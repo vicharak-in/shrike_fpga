@@ -7,11 +7,11 @@
 ![shrike](https://github.com/user-attachments/assets/6f585615-6b91-49ec-aa3d-26e50eec5a31)
 
 # Useful Links : 
-1. FPGA - ![Renesas Forge FPGA ](https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga)
+1. FPGA - [Renesas Forge FPGA ](https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga)
 
-2. EDA Tool - ![Go Configure Software Hub](https://www.renesas.com/en/software-tool/go-configure-software-hub)
+2. EDA Tool - [Go Configure Software Hub](https://www.renesas.com/en/software-tool/go-configure-software-hub)
 
-3. RP2040 - ![Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+3. RP2040 - [Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
    
 # Demo Projects - TODO ( Your contributions are appreciated )  
 
