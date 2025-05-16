@@ -1,4 +1,4 @@
-# SHRIKE
+# SHRIKE_FPGA
 ### FPGA + RP2040 + endless learning 
 ![image](https://github.com/user-attachments/assets/6f404ca8-1808-4871-b96a-2030eb391555)
 
@@ -6,13 +6,17 @@
  
 ![shrike](https://github.com/user-attachments/assets/6f585615-6b91-49ec-aa3d-26e50eec5a31)
 
-# Useful Links : 
+## Useful Links : 
 1. FPGA - [Renesas Forge FPGA ](https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga)
 
 2. EDA Tool - [Go Configure Software Hub](https://www.renesas.com/en/software-tool/go-configure-software-hub)
 
 3. RP2040 - [Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
-   
+
+## 📫 Join our communities at :
+  
+   [<img src="./asset/discord-icon.svg" width="10%"/>](https://discord.com/invite/EhQy97CQ9G)  &nbsp; [<img src="./asset/x_icon.png" width="10%"/>](https://x.com/Vicharak_In)  &nbsp; [<img src="./asset/vicharak_icon.png" width="10%"/>](https://discuss.vicharak.in/)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="10%"/>](https://www.linkedin.com/company/vicharak-in)  &nbsp;
+
 # Demo Projects - TODO ( Your contributions are appreciated )  
 
 1. LED Water                         
@@ -44,9 +48,22 @@
 5. Add Usefull learning Resources
 6. Restructure README
 
-![image_480](https://github.com/user-attachments/assets/b9ff4a67-2bfd-40b9-93d6-0fe1c51b91b2)
+## FPGA Flashing time Analysis 
 ![image](https://github.com/user-attachments/assets/3359da79-6886-48a4-9754-b5aa416cc504)
 
-# FPGA CPU PIN OUTS 
-![image](https://github.com/user-attachments/assets/ed1769d6-760d-4312-85f5-bb914ad75cec)
+
+# FPGA CPU Interconnect Pinouts 
+
+<div align="center">
+
+| FPGA PIN | RP 2040 PIN | S_Fun RP2040     | S_Fun FPGA         |
+|----------|-------------|------------------|--------------------|
+| 3        | 2           | GPIO             | SPI_SCLK           |
+| 4        | 1           | UART RX / GPIO   | SPI_SS             |
+| 5        | 3           | GPIO             | SPI_SI (MOSI)      |
+| 6        | 0           | UART TX / GPIO   | SPI_SI (MISO) / CONFIG |
+| 9        | 11          | GPIO             | GPIO               |
+
+</div>
+
 
