@@ -1,7 +1,8 @@
 # SHRIKE_FPGA
 
 Shrike is world's first fully open source FPGA Dev board based on Renesas Forge FPGA SLG47910 and RP2040. 
-We at vicharak have kept in mind need of a learner, maker and a hobbist while desiging this art. This dev board will be your stepping stone in the field of FPGA , reconfigrable and hetrogenous computing . 
+
+We at vicharak have kept in mind need of a learner, maker and a hobbist while designing this art. This dev board will be your stepping stone in the field of FPGA , reconfigurable and heterogenous computing . 
 
 ![image](https://github.com/user-attachments/assets/6f404ca8-1808-4871-b96a-2030eb391555)
 
@@ -39,7 +40,8 @@ We at vicharak have kept in mind need of a learner, maker and a hobbist while de
 
 ### Note 
 
-We are building a ecosystem for learners makers and hobbist around shrike and the projects that will follow in the future thus we request you comtribution in the same. Join our communities across all the platfroms ,pitch and showcase your ideas with Shrike. 
+We are building a ecosystem for learners makers and hobbist around shrike and the projects that will follow in the future thus we request you contribution in the same. Join our communities across all the platforms ,pitch and showcase your ideas with Shrike. 
+
 
 Thank You 
 
@@ -62,8 +64,8 @@ Thank You
 11. 8 Bit protocol for v2 
 12. FFT 
 13. PWM Coprocessor ( servo and motor controls)
-14. Signal Genrator  ( Pll for higher frequencies)
-15. Random number genrator 
+14. Signal Generator  ( Pll for higher frequencies)
+15. Random number generator 
 16. Counter 4 bit                                       -- DONE
 
 
