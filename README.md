@@ -74,7 +74,7 @@ Thank You
 ![image](https://github.com/user-attachments/assets/3359da79-6886-48a4-9754-b5aa416cc504)
 
 
-## FPGA CPU Interconnect Pinouts 
+### FPGA CPU Interconnect Pinouts 
 
 <div align="center">
 
@@ -89,3 +89,16 @@ Thank You
 </div>
 
 
+## Resources 
+ #### 1. Learning Resources 
+
+   1. [AISC WORLD Verilog Tutorials ](https://www.asic-world.com/verilog/veritut.html)
+   2. [Nandland FPGA Tutorials](https://nandland.com/fpga-101/)
+   3. [FPGA for Fun](https://www.fpga4fun.com/)
+   4. [Lawrie FPGA Tutorials](https://lawrie.github.io/blackicemxbook/)
+  
+ #### 2. Similar Hardware Projects 
+   1. [Ulx3s-Project](https://ulx3s.github.io/)
+   2. [TinyFPGA-Project](https://tinyfpga.com/)
+   3. [icebreaker-Project](https://github.com/icebreaker-fpga/icebreaker)
+   
