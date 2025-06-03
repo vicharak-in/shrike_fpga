@@ -33,6 +33,7 @@ GPIO's
 ################
 
 The Shrike Packed with User IO's I have 23 RP2040 MCU IO's and 14 FPGA IO's all of which are 3.3V compatible.
+
 The Board also has Header for 1.8V , 3.3V Power Rails for power peripherals POWER 
 
 PMOD Connector
@@ -55,8 +56,10 @@ The LED's are active high meaning that when the GPIO pin is set to hight the LED
 Programming 
 ################
 
+
 Both the IC on the board have seprate programming models. The RP2040 
 can be programmed using MicroPython or C whereas the FPGA needed to be 
+
 programmed using Verilog in The Renesas Go Configure IDE.
 
 Powering the Board
