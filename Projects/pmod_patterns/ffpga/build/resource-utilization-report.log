@@ -1,0 +1,34 @@
+
+
+####   Resource Utilization Report   ####
+
+    Top level module name: pmod_led
+
+    Resource usage:
+      55 Logic 6-LUT CLBs
+          201 CLB LUTs utilized (up to 4 per CLB)
+           74 CLB FFs utilized (up to 4 pairs per CLB)
+       9 I/O CLBs
+           17 Output pins
+            8 Output FFs utilized
+       1 Clock
+           Clock 0: net    92, clk, Fanout: 40 CLBs
+    need 0 DSP and 1 Logic-Memory EFLX 1K Tiles.
+
+ 
+####   Resource Utilization Complete   ####
+
+TILE-REQ:		0		0		0		1
+
+### Total EFLX resources from current floorplan: ###
+                       184 IOBs
+                       140 Logic 6-LUT CLBs
+                              40 CLBs support RAM/SR
+
+Usage of Logic CLBs is 39.3%.
+    Logic-Memory CLB for RAM/Shift-Register is 0.0%.
+Usage of LUTs is 35.9%.
+    dual-LUTs is 13.0%.
+Usage of FF is 13.2%.
+    dual-FF is 1.8%.
+Usage of IO CLB is 4.9%.
