@@ -1,6 +1,0 @@
-read -sv "../src/main.v"
-synth_xilinx -flatten -nodsp -abc9 
-clean
-write_verilog "post_synth_results.v"
-write_edif "netlist.edif"
-tee -q -o post_synth_report.txt stat
