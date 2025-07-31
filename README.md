@@ -36,14 +36,15 @@ We at vicharak have kept in mind need of a learner, maker and a hobbist while de
   
    [<img src="./asset/discord-icon.svg" width="10%"/>](https://discord.com/invite/EhQy97CQ9G)  &nbsp; [<img src="./asset/x_icon.png" width="10%"/>](https://x.com/Vicharak_In)  &nbsp; [<img src="./asset/vicharak_icon.png" width="10%"/>](https://discuss.vicharak.in/)  &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="10%"/>](https://www.linkedin.com/company/vicharak-in)  &nbsp; [<img src="./asset/reddit_icon.jpeg" width="10%"/>](https://www.reddit.com/r/Vicharak/)  &nbsp;
 
+### Note
+ 
+```
 
-
-### Note 
-
-We are building a ecosystem for learners makers and hobbist around shrike and the projects that will follow in the future thus we request you contribution in the same. Join our communities across all the platforms ,pitch and showcase your ideas with Shrike. 
-
+We are building a ecosystem for learners makers and hobbist around shrike and the projects that will follow in the future thus we request you contribution in the same. Join our communities across all the platforms,pitch and showcase your ideas with Shrike. 
 
 Thank You 
+```
+ 
 
 ## Potential application of Shrike ( Ideas) 
  1. Peripheral Coprocessor 
