@@ -2,7 +2,7 @@
 
 ![image](./asset/shirke-angle-01.jpg)
 
-Shrike is world's first fully open source FPGA Dev board based on Renesas Forge FPGA SLG47910 and RP2040. 
+Shrike is world's first fully open source FPGA Dev board based on Renesas Forge FPGA SLG47910 and RP2350. 
 
 We at vicharak have kept in mind need of a learner, maker and a hobbyist while designing this art. This dev board will be your stepping stone in the field of FPGA , reconfigurable and heterogenous computing. 
 
@@ -13,12 +13,16 @@ We at vicharak have kept in mind need of a learner, maker and a hobbyist while d
 
 ### Board level Block Diagram
  
-![shrike](https://github.com/user-attachments/assets/6f585615-6b91-49ec-aa3d-26e50eec5a31)
+<div align="center">
+
+![shrike](./asset/shrike_2350.svg)
+
+</div>
 
 ### Key Features : 
 
 1.  FPGA with 1120 5 Input LUT's
-2.  RP2040 - ARM Cortex M0
+2.  RP2350 - ARM Cortex M0 and RISC-V Hazard cores 
 3.  PMOD Compatible Connector
 4.  Bread Board compatible 
 5.  IO interface Between FPGA and MCU
@@ -36,17 +40,13 @@ We at vicharak have kept in mind need of a learner, maker and a hobbyist while d
 
 </div>
 
-## Resources : 
-
-1. [Getting Started Guide ](./Docs/FPGA_Programming.rst)
-2. [Comparitive analysis between cpu and FPGA on Shrike](./Docs/RP2040vsFPGA.md)
 
 ## Useful Links : 
 1. FPGA Datasheet - [Renesas Forge FPGA ](https://www.renesas.com/en/products/programmable-mixed-signal-asic-ip-products/forgefpga-low-density-fpgas/slg47910-1k-lut-forgefpga)
 
 2. EDA Tool - [Go Configure Software Hub](https://www.renesas.com/en/software-tool/go-configure-software-hub)
 
-3. RP2040 Related Resources- [Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+3. RP2350 Related Resources- [Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
 
 ## 📫 Join our communities at :
   
@@ -64,7 +64,7 @@ Thank You
 
 <div align="center">
 
-| FPGA PIN | RP 2040 PIN | S_Fun RP2040     | S_Fun FPGA         |
+| FPGA PIN | RP 2350 PIN | S_Fun RP2350     | S_Fun FPGA         |
 |----------|-------------|------------------|--------------------|
 | 0        | 13          | GPIO UART0-RX /SCL   |GPIO                |
 | 1        | 12          | GPIO UART0-TX /SDA   | GPIO               |
