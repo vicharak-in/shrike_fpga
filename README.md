@@ -31,14 +31,13 @@ We at vicharak have kept in mind need of a learner, maker and a hobbyist while d
 8.  Type C Port for Power and Programming 
 
 
-
-
-
 <div align="center">
 
-![blink_webp](./asset/shrike_blink.webp)
+ <img src="./asset/shrike_render.png" alt="shrike" width="60%">
 
 </div>
+
+
 
 
 
@@ -52,6 +51,14 @@ We at vicharak have kept in mind need of a learner, maker and a hobbyist while d
 2. EDA Tool - [Go Configure Software Hub](https://www.renesas.com/en/software-tool/go-configure-software-hub)
 
 3. RP2350 Related Resources- [Getting Started ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+
+
+<div align="center">
+
+![blink_webp](./asset/shrike_blink.webp)
+
+</div>
+
 
 ## 📫 Join our communities at :
   
