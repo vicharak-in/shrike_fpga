@@ -33,7 +33,7 @@ We at vicharak have kept in mind need of a learner, maker and a hobbyist while d
 
 <div align="center">
 
- <img src="./asset/shrike_render.png" alt="shrike" width="60%">
+ <img src="./asset/shrike_render.png" alt="shrike" width="80%">
 
 </div>
 
