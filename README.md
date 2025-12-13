@@ -1,6 +1,15 @@
 # SHRIKE_FPGA
 
+
+**This Repository has been archived and all the resources related to Shrike(RP2350) and Shrike-lite(RP2040) has been merged and moved to common repository [here](https://github.com/vicharak-in/shrike).** 
+
+
+
 ![image](./asset/shirke-angle-01.jpg)
+
+Please check out all the resources in the new repository.
+
+
 
 Shrike is world's first fully open source FPGA Dev board based on Renesas Forge FPGA SLG47910 and RP2350. 
 
